@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+            body {
+            /* font-family: Arial, sans-serif; */
+            background-color: #f2f2f2;
+            margin: 0;
+            padding: 20px;
+            }
+
+            .contain {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr); /* 3 columns */
+            gap: 20px; /* grid-gap */
+            max-width: 1000px;
+            margin: 0 auto;
+            }
+
+            .box {
+            background-color: white;
+            padding: 15px;
+            text-align: center;
+            border-radius: 10px;
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+            box-shadow: 0 0 8px rgba(0,0,0,0.1);
+            }
+
+            .box img {
+            width: 300px;
+            height: auto;
+            border-radius: 8px;
+            }
+
+         
+
+            .box p {
+            color: #27ae60;
+            font-weight: bold;
+            }
+
+            .box:hover {
+            transform: scale(1.05);
+            box-shadow: 0 10px 20px rgba(0,0,0,0.2);
+            }
+
+    </style>
+</head>
+<body>
+    <div class="contain">
+        <div class="box">
+            <h2 class="product_name">Blanca Beauty</h2>
+            <img src="https://blankabrand.com/cdn/shop/articles/Lifestyle-product-photography-beauty-products-Hero-image_5c26c7ee-533d-4175-ab89-8af786a36524.jpg?v=1748453146" alt="">
+            <p class="price">$50</p>
+         </div>
+
+          <div class="box">
+            <h2 class="product_name">Shampoo</h2>
+            <img src="https://images.rawpixel.com/image_800/cHJpdmF0ZS9sci9pbWFnZXMvd2Vic2l0ZS8yMDIyLTExL3BmLXMxMDgtcG0tNDExMy1tb2NrdXAuanBn.jpg" alt="">
+            <p class="price">$18.99</p>
+         </div>
+
+          <div class="box">
+            <h2 class="product_name">Beauty Cleanser</h2>
+            <img src="https://static.vecteezy.com/system/resources/previews/040/247/630/non_2x/ai-generated-spa-essentials-with-flowers-on-neutral-backdrop-photo.jpg" alt="">
+            <p class="price">$30</p>
+         </div>
+    </div>
+</body>
+</html>

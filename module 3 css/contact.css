@@ -1,0 +1,46 @@
+h2{
+  text-align: center;
+}
+
+.contact-form {
+  background-color:pink;
+  height: 500px;
+  width: 600px;
+  margin: auto;
+  padding: 30px;
+ border:2px solid black;
+  border-radius: 10px;
+  
+ 
+}
+
+/* Common styling for form fields */
+.form-field {
+  width: 100%;
+  padding: 10px;
+  margin: 10px 0 20px;
+  border: 1px solid black;
+}
+
+/* Style the labels */
+label {
+  font-weight: bold;
+  /* display: block; */
+  margin-bottom: 10px;
+}
+
+/* Style the submit button using an ID selector */
+#submit-button {
+  background-color: #0066cc;
+  color: white;
+  padding: 10px 20px;
+  /* border: none; */
+  border-radius: 5px;
+  /* font-size: 1; */
+  
+}
+
+/* Hover effect for the submit button */
+#submit-button:hover {
+  background-color: #004c99;
+}
